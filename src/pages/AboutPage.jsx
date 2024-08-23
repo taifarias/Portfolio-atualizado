@@ -7,7 +7,7 @@ import ProgressBar from '../components/ProgressBar';
 
 const AboutPage = () => {
     return(
-        <div className='body bg-cover h-screen' style={{backgroundImage: `url(${bgImg2})`, fontFamily: 'Nanum Bold'}} >
+        <div id='aboutme' className='body bg-cover h-screen' style={{backgroundImage: `url(${bgImg2})`, fontFamily: 'Nanum Bold'}} >
            
            <h1 className='text-5xl pt-5 pb-6 pl-5 text-green-300'>Sobre mim</h1>
 

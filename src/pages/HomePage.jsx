@@ -4,19 +4,23 @@ import startButton from '../assets/img/startbutton.png'
 
 const HomePage = () => {
     return(
-        <div className='body bg-cover h-screen' style={{backgroundImage: `url(${bgImg})`}} >
+        <div id='home' className='body bg-cover h-screen bg-bottom' style={{backgroundImage: `url(${bgImg})`}} >
            <section className='flex flex-col h-full justify-center items-center'>
                 <img
                 className='  xl:w-2/5 '
                 src={Title}
                 alt="Portfolio" />
 
-                <button>                    
-                    <img 
-                    className='w-64 absolute -ml-28 mt-36 xl:w-32'
+                    
+                    <a href="#aboutme">
+                        <img 
+                    className='w-64 absolute -ml-28 mt-28 xl:w-32 transition-transform duration-200 transform hover:scale-110'
                     src={startButton}
                     alt="click START aqui" />
-                    </button>
+                    </a>
+
+                    
+                    
            </section>
 
         </div>
