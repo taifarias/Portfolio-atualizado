@@ -15,8 +15,8 @@ const ProjetosPage = () => {
         <ProjetoCard
         image={LpImg}
         title="Landing Page"
-        paragraph1="O site foi construído com HTML e Tailwind CSS, oferecendo uma interface moderna e acessível para diferentes dispositivos. lém disso, inclui um carrossel de imagens dinâmico com transições suaves, proporcionando uma experiência visual atraente.."
-        paragraph2="HTML, CSS, Tailwind"
+        paragraph1="A landign page foi construída com HTML e Tailwind CSS, ncorportando JavaScript no desenvolvimento, resultando em uma interface moderna e acessível para diferentes dispositivos."
+                    paragraph2="HTML, Tailwind CSS, JavaScript"
         button1Text="GitHub"
         button1Link="https://github.com/taifarias/landing-cantora"
         button2Text="Acessar"
@@ -25,22 +25,22 @@ const ProjetosPage = () => {
     <ProjetoCard
         image={CoffeeImg}
         title="Webpage Coffee Shop"
-        paragraph1="Uma site para uma empresa de delivery de café utilizando Tailwind CSS, com foco em criar uma experiência de usuário intuitiva e visualmente atraente. O design foi otimizado para garantir acessibilidade e uma navegação fluida em diferentes tamanhos de tel"
-        paragraph2="HTML, CSS, Tailwind"
+                    paragraph1="Uma site para uma empresa de delivery de café utilizando Tailwind CSS, com foco em criar uma experiência de usuário intuitiva e visualmente atraente. O design foi otimizado para garantir acessibilidade e uma navegação fluida em diferentes tamanhos de tela"
+                    paragraph2="HTML, CSS, Tailwind"
         button1Text="GitHub"
         button1Link="https://github.com/taifarias/coffee-website-tailwind"
         button2Text="Acessar"
     />,
     <ProjetoCard
-        image={CepImg}
-        title="Encontrar CEP (API)"
-        paragraph1="Interface de formulário para cadastro de endereço utilizando Tailwind CSS. O formulário possui uma funcionalidade de autocompletar baseada no CEP, facilitando o preenchimento para os usuários. O design foi estruturado para ser responsivo e intuitivo, garantindo uma experiência agradável em diferentes dispositivos."
-        paragraph2="HTML,Tailwind CSS, JavaScript"
-        button1Text="GitHub"
-        button1Link="https://github.com/taifarias/apiCEP-js-e-tailwindcss-"
-        button2Text="Acessar"
-        button2Link="https://taifarias.github.io/apiCEP-js-e-tailwindcss-/src/"
-    />,
+                    image={CepImg}
+                    title="Encontrar CEP (API)"
+                    paragraph1="Interface de formulário simulando cadastro de endereço para entrega. Faz chamada de API para autocompletar baseada no CEP, facilitando o preenchimento para os usuários. O design foi estruturado para ser responsivo e intuitivo, garantindo funcionalidade em diferentes dispositivos."
+                    paragraph2="HTML,Tailwind CSS, JavaScript"
+                    button1Text="GitHub"
+                    button1Link="https://github.com/taifarias/apiCEP-js-e-tailwindcss-"
+                    button2Text="Acessar"
+                    button2Link="https://taifarias.github.io/apiCEP-js-e-tailwindcss-/src/"
+                />,
         <ProjetoCard
                     image={TodoImg}
                     title="To Do List"
@@ -65,7 +65,7 @@ const ProjetosPage = () => {
                 <ProjetoCard
                     image={portImg}
                     title="Portfólio"
-                    paragraph1="Este portfólio foi desenvolvido com React e Tailwind. Fazendo uso de componentes para organização e aplicando design unico para desktop e mobile."
+                    paragraph1="Este portfólio foi desenvolvido com React e Tailwind. Fazendo uso de componentes para organização e aplicando design unico para desktop e mobile. Experimente em outros dispositivos!"
                     paragraph2="HTML, Tailwind CSS, JavaScript, React"
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/Portfolio-atualizado"
@@ -90,8 +90,8 @@ const ProjetosPage = () => {
                 <ProjetoCard
                     image={LpImg}
                     title="Landing Page"
-                    paragraph1="O site foi construído com HTML e Tailwind CSS, oferecendo uma interface moderna e acessível para diferentes dispositivos. lém disso, inclui um carrossel de imagens dinâmico com transições suaves, proporcionando uma experiência visual atraente.."
-                    paragraph2="HTML, CSS, Tailwind"
+                    paragraph1="A landign page foi construída com HTML e Tailwind CSS, ncorportando JavaScript no desenvolvimento, resultando em uma interface moderna e acessível para diferentes dispositivos."
+                    paragraph2="HTML, Tailwind CSS, JavaScript"
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/landing-cantora"
                     button2Text="Acessar"
@@ -100,7 +100,7 @@ const ProjetosPage = () => {
                 <ProjetoCard
                     image={CoffeeImg}
                     title="Webpage Coffee Shop"
-                    paragraph1="Uma site para uma empresa de delivery de café utilizando Tailwind CSS, com foco em criar uma experiência de usuário intuitiva e visualmente atraente. O design foi otimizado para garantir acessibilidade e uma navegação fluida em diferentes tamanhos de tel"
+                    paragraph1="Uma site para uma empresa de delivery de café utilizando Tailwind CSS, com foco em criar uma experiência de usuário intuitiva e visualmente atraente. O design foi otimizado para garantir acessibilidade e uma navegação fluida em diferentes tamanhos de tela"
                     paragraph2="HTML, CSS, Tailwind"
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/coffeeshop-v2"
@@ -110,7 +110,7 @@ const ProjetosPage = () => {
                 <ProjetoCard
                     image={CepImg}
                     title="Encontrar CEP (API)"
-                    paragraph1="Interface de formulário para cadastro de endereço utilizando Tailwind CSS. O formulário possui uma funcionalidade de autocompletar baseada no CEP, facilitando o preenchimento para os usuários. O design foi estruturado para ser responsivo e intuitivo, garantindo uma experiência agradável em diferentes dispositivos."
+                    paragraph1="Interface de formulário simulando cadastro de endereço para entrega. Faz chamada de API para autocompletar baseada no CEP, facilitando o preenchimento para os usuários. O design foi estruturado para ser responsivo e intuitivo, garantindo funcionalidade em diferentes dispositivos."
                     paragraph2="HTML,Tailwind CSS, JavaScript"
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/apiCEP-js-e-tailwindcss-"
@@ -139,11 +139,12 @@ const ProjetosPage = () => {
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/communa-app"
                     button2Text="Acessar"
+                    button2Link="https://taifarias.github.io/communa-app/"
                 />
                 <ProjetoCard
                     image={portImg}
                     title="Portfólio"
-                    paragraph1="Este portfólio foi desenvolvido com React e Tailwind. Fazendo uso de componentes para organização e aplicando design unico para desktop e mobile."
+                    paragraph1="Este portfólio foi desenvolvido com React e Tailwind. Fazendo uso de componentes para organização e aplicando design unico para desktop e mobile. Experimente em outros dispositivos!"
                     paragraph2="HTML, Tailwind CSS, JavaScript, React"
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/Portfolio-atualizado"

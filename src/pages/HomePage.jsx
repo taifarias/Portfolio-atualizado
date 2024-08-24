@@ -14,7 +14,7 @@ const HomePage = () => {
                     
                     <a href="#aboutme">
                         <img 
-                    className='w-64 absolute -ml-28 mt-28 xl:w-32 transition-transform duration-200 transform hover:scale-110'
+                    className='w-64 absolute -ml-20 mt-28 xl:w-32 transition-transform duration-200 transform hover:scale-110'
                     src={startButton}
                     alt="click START aqui" />
                     </a>
