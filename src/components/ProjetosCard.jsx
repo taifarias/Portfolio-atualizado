@@ -15,10 +15,10 @@ const ProjetoCard = ({ image, title, paragraph1, paragraph2, button1Text, button
         <p className="text-black text-justify text-sm mx-2 mb-3">{paragraph2}</p>
       </div>
       <div className="flex justify-center  w-full mt-7 space-x-20">
-        <a href={button1Link} className="bg-green-600 text-white py-2 px-4 rounded-3xl shadow-md hover:bg-green-500 text-center">
+        <a href={button1Link} target='_blank' className="bg-green-600 text-white py-2 px-4 rounded-3xl shadow-md hover:bg-green-500 text-center">
           {button1Text}
         </a>
-        <a href={button2Link} className="bg-orange-600 text-white py-2 px-4 rounded-3xl shadow-md hover:bg-orange-500 text-center">
+        <a href={button2Link} target='_blank' className="bg-orange-600 text-white py-2 px-4 rounded-3xl shadow-md hover:bg-orange-500 text-center">
           {button2Text}
         </a>
       </div>

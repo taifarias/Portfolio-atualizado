@@ -6,9 +6,10 @@ import CoffeeImg from '../assets/img/coffeImg.png'
 import CepImg from '../assets/img/cepImg.png'
 import BlogImg from '../assets/img/blogImg.png'
 import portImg from '../assets/img/portImg.png'
+import TodoImg from '../assets/img/todoImg.png'
 
 import Carousel from '../components/Carousel.jsx';
-
+//olha a gambiarra da gata
 const ProjetosPage = () => {
     const projectComponents = [
         <ProjetoCard
@@ -19,7 +20,7 @@ const ProjetosPage = () => {
         button1Text="GitHub"
         button1Link="https://github.com/taifarias/landing-cantora"
         button2Text="Acessar"
-        button2Link=""
+        button2Link="https://taifarias.github.io/landing-cantora/src/"
     />,
     <ProjetoCard
         image={CoffeeImg}
@@ -38,7 +39,18 @@ const ProjetosPage = () => {
         button1Text="GitHub"
         button1Link="https://github.com/taifarias/apiCEP-js-e-tailwindcss-"
         button2Text="Acessar"
+        button2Link="https://taifarias.github.io/apiCEP-js-e-tailwindcss-/src/"
     />,
+        <ProjetoCard
+                    image={TodoImg}
+                    title="To Do List"
+                    paragraph1="uma aplicação web simples e intuitiva de lista de tarefas, desenvolvida como parte do meu aprendizado contínuo em desenvolvimento web. A aplicação permite que os usuários adicionem, editem, filtrem, pesquisem e marquem tarefas como concluídas."
+                    paragraph2="HTML, JavaScript, React"
+                    button1Text="GitHub"
+                    button1Link="https://github.com/taifarias/toDoLIst"
+                    button2Text="Acessar"
+                    button2Link="https://taifarias.github.io/toDoLIst/"
+                />,
         <ProjetoCard
                     image={BlogImg}
                     title="Blog com perfil"
@@ -48,6 +60,7 @@ const ProjetosPage = () => {
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/communa-app"
                     button2Text="Acessar"
+                    button2Link="https://taifarias.github.io/communa-app/"
                 />,
                 <ProjetoCard
                     image={portImg}
@@ -82,7 +95,7 @@ const ProjetosPage = () => {
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/landing-cantora"
                     button2Text="Acessar"
-                    button2Link=""
+                    button2Link="https://taifarias.github.io/landing-cantora/src/"
                 />
                 <ProjetoCard
                     image={CoffeeImg}
@@ -90,8 +103,9 @@ const ProjetosPage = () => {
                     paragraph1="Uma site para uma empresa de delivery de café utilizando Tailwind CSS, com foco em criar uma experiência de usuário intuitiva e visualmente atraente. O design foi otimizado para garantir acessibilidade e uma navegação fluida em diferentes tamanhos de tel"
                     paragraph2="HTML, CSS, Tailwind"
                     button1Text="GitHub"
-                    button1Link="https://github.com/taifarias/coffee-website-tailwind"
+                    button1Link="https://github.com/taifarias/coffeeshop-v2"
                     button2Text="Acessar"
+                    button2Link="https://taifarias.github.io/coffeeshop-v2/"
                 />
                 <ProjetoCard
                     image={CepImg}
@@ -101,10 +115,21 @@ const ProjetosPage = () => {
                     button1Text="GitHub"
                     button1Link="https://github.com/taifarias/apiCEP-js-e-tailwindcss-"
                     button2Text="Acessar"
+                    button2Link="https://taifarias.github.io/apiCEP-js-e-tailwindcss-/src/"
                 />
             </div>
                 <div className='row2 flex space-x-36 pb-10'>
 
+                <ProjetoCard
+                    image={TodoImg}
+                    title="To-do List"
+                    paragraph1="Este projeto é uma aplicação web simples e intuitiva de lista de tarefas, desenvolvida como parte do meu aprendizado contínuo em desenvolvimento web. A aplicação permite que os usuários adicionem, editem, filtrem, pesquisem e marquem tarefas como concluídas."
+                    paragraph2="HTML, CSS, JavaScript"
+                    button1Text="GitHub"
+                    button1Link="https://github.com/taifarias/toDoLIst"
+                    button2Text="Acessar"
+                    button2Link="https://taifarias.github.io/toDoLIst/"
+                />
                 <ProjetoCard
                     image={BlogImg}
                     title="Blog com perfil"
